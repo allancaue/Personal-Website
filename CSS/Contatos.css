@@ -36,6 +36,7 @@ nav a:hover {
     border-radius: 8em;
     box-shadow: rgba(179, 181, 214, 0.5) 0px 2px 4px 0px;
     padding: 15px;
+    position: relative;
 }
 
 .center {
@@ -46,24 +47,24 @@ nav a:hover {
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 12%;
-    top: 26.6%;
+    left: 3%;
+    top: 25%;
 }
 
 .instagram img {
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 12%;
-    top: 34%;
+    left: 3%;
+    top: 25%;
 }
 
 .Gmeil img {
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 12%;
-    top: 41.3%;
+    left: 3%;
+    top: 25%;
 }
 
 header {
@@ -72,4 +73,10 @@ header {
 
 a:hover {
     color: rgb(240, 161, 71);
+}
+
+main {
+    max-width: 840px;
+    min-width: 280px;
+    margin: auto;
 }
