@@ -29,6 +29,7 @@ nav a:hover {
     border: 30px solid rgb(43, 43, 43);
     border-radius: 8px;
     background-color: rgb(43, 43, 43);
+    box-shadow: rgba(255, 255, 255, 0.253) 2px 2px 4px 0px;
 }
 
 .caixa {
