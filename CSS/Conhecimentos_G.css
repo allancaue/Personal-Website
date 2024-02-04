@@ -1,7 +1,11 @@
 body {
+    height: 100vh;
     color: white;
     background-color: black;
+    background-image: linear-gradient(45deg, #F0B848, black);
     font-family: Arial, Helvetica, sans-serif;
+    background-position: center top;
+    background-size: 100% 100%;
 }
 
 ul {
@@ -54,19 +58,20 @@ nav a:hover {
     max-width: 470px;
     position: absolute;
     top: 0%;
-    left: 30%;
+    left: 280px;
 }
 
 main {
-    max-width: 917px;
-    min-width: 917px;
     position: relative;
     margin: auto;
+    max-width: 900px;
+    justify-items: center;
 }
 
 header {
-    max-width: 917px;
+    color: rgb(240, 161, 71);
     margin: auto;
+    max-width: 900px;
 }
 
 .quadrado3 {
@@ -75,7 +80,12 @@ header {
     border-radius: 8px;
     max-width: 470px;
     position: absolute;
-    top: 46%;
-    left: 40%;
+    top: 250px;
+    left: 283px;
+}
+
+.quadrado3 img {
+    height: 262px;
+    width: 465px;
 }
 
